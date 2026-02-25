@@ -287,7 +287,8 @@ def update_maps(selected_state, selected_index, selected_outcome, relayout1, rel
     fig1.update_layout(
         title_text=f"Index Map: {labels[selected_index]}",
         margin={"r":0,"t":30,"l":0,"b":0},
-        map_style="carto-positron"
+        map_style="carto-positron",
+        coloraxis_colorbar_title_side="right"
     )
 
     # Create Map 2 (Value 2)
@@ -306,7 +307,8 @@ def update_maps(selected_state, selected_index, selected_outcome, relayout1, rel
     fig2.update_layout(
         title_text=f"Outcome Map: {labels[selected_outcome]}",
         margin={"r":0,"t":30,"l":0,"b":0},
-        map_style="carto-positron"
+        map_style="carto-positron",
+        coloraxis_colorbar_title_side="right"
     )
 
     return fig1, fig2, new_viewport
