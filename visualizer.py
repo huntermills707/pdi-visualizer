@@ -54,7 +54,7 @@ conditions = [
 
 indices = [
     ("PDI", "Principled Deprivation Index"),
-    ("ReADI", "Reproducalbe Area Deprivation Index")
+    ("ReADI", "Reproducalbe Area Deprivation Index"),
     ("NDI", "Neighborhood Deprivation Index"),
     ("SVI", "Social Vulnerability Index"),
     ("NRI", "National Risk Index Score"),
